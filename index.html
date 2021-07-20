@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Akan Names</title>
+</head>
+
+<body class="container">
+    <script src="js/script.js"></script>
+    <div id="heading">
+      <img src="images/logo.png" alt=" ">
+      <h1>Welcome to Akan Names</h1>
+    </div>
+    <div class="overlay">
+      <div class="container">
+        <h2>Enter Your Details Below!</h2>
+        <form name="myForm" class="form">
+          <div class="form-group">
+            <label for="date">Year of Birth:</label>
+            <input type="date" class="form-control" id="date">
+          </div>
+  
+          <div class="form-group">
+            <label for="gender">Gender</label><br>
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="gender" id="male" value="male">&nbsp; Male
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="gender" id="female" value="female">&nbsp; Female
+              </label>
+            </div>
+          </div>
+          <button type="submit" id="generate-name" value="Generate Name" onclick="dayCalculator()"> <strong>Generate Name
+            </strong></button>
+          <br>
+        </form>
+        <p id="results"> </p>
+      </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-6">
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">
+                  Akan names are derived from Ghanian culture. Get your Akan name by filling the form above!
+                  Names are based on gender and the date you were born.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">
+                   Frequently in Ghana, children are given
+                  their first name as a 'day name' which corresponds to the day in the week they were born.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <footer>&copy; Copyright 2021 </footer>
+      </div>
+    
+    </body>
+    
+    </html>
